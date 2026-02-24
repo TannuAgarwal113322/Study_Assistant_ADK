@@ -1,13 +1,17 @@
 # Problem Statement
 
-Students often struggle to understand technical subjects, prepare interview questions, and follow a structured roadmap.
+Build a Multi-Agent AI Study Assistant using Google Agent Development Kit (ADK) and Gemini API.
 
-This AI Study Assistant solves this problem using multiple AI agents.
+The assistant should:
 
-It can:
+• Explain any study topic clearly  
+• Generate interview questions  
+• Provide a learning roadmap  
 
-• Explain topics
-• Generate interview questions
-• Provide roadmap
+The system must use:
 
-using Google ADK and Gemini.
+• Root Agent  
+• Multiple Sub Agents  
+• Tools  
+
+The goal is to help students learn topics efficiently using AI.
