@@ -1,72 +1,108 @@
-# 📚 AI Study Assistant using Google ADK
+# 🎓 AI Study Assistant using Google ADK
 
-## 📌 Overview
-
-This project is a Multi-Agent AI Study Assistant built using Google Agent Development Kit and Gemini API.
+A Multi-Agent AI Study Assistant built using **Google Agent Development Kit (ADK)** and **Gemini API**.
 
 It helps students:
 
-• Understand topics
-• Generate interview questions
-• Get learning roadmap
+• 📖 Understand any topic
+• ❓ Generate interview questions
+• 🗺️ Get a complete learning roadmap
+
 
 ---
 
-## 🤖 Agents
+# 🤖 Agents Architecture
 
-### Root Agent:
+## Root Agent
 
 study_agent
 
-### Sub Agents:
+## Sub Agents
 
-• explanation_agent
-• question_agent
-• roadmap_agent
-
----
-
-## 🛠 Tools Used
-
-• explain_tool
-• question_tool
-• roadmap_tool
-• google_search
+• explanation_agent → Explains topic
+• question_agent → Generates interview questions
+• roadmap_agent → Generates learning roadmap
 
 ---
 
-## ⚙️ Tech Stack
+# 🛠 Tools Used
 
-Python
-Google ADK
-Gemini API
+• Google ADK
+• Gemini 2.5 Flash
+• Python
+• Google Generative AI
 
 ---
 
-## 🚀 How to run
+# 📂 Folder Structure
 
-```bash
+study_assistant
+│
+├── study_agent
+│   ├── agent.py
+│   ├── sub_agents
+│
+├── tools
+│
+├── requirements.txt
+│
+└── README.md
+
+---
+
+# ⚙ Installation & Setup
+
+## Step 1 — Clone repo
+
+git clone https://github.com/TannuAgarwal113322/Study_Assistant_ADK.git
+
+cd study_assistant
+
+## Step 2 — Install dependencies
+
+pip install -r requirements.txt
+
+## Step 3 — Add API key
+
+Create .env file
+
+GOOGLE_API_KEY=your_api_key
+
+## Step 4 — Run project
+
 py -m google.adk.cli web .
-```
 
 ---
 
-## 🎯 Example
+# 🎯 Features
 
-User:
+✅ Multi-Agent System
+✅ Explanation Generator
+✅ Interview Questions Generator
+✅ Learning Roadmap Generator
+✅ Gemini AI Integration
 
-Explain DBMS
+---
+
+# 🧠 Example
+
+Input:
+
+Teach me DBMS
 
 Output:
 
-Explanation
-Questions
-Roadmap
+✔ Explanation
+✔ Interview Questions
+✔ Learning Roadmap
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 Tannu Agarwal
-Priyanka Bais
+NIT Kurukshetra
 
+---
+
+# 🏆 Built for Google ADK Challenge
